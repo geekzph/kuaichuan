@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">EasyShare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">EasyShare</string>
+    <string name="hello">Hello World!</string>
+    <string name="main_app">应用</string>
+    <string name="main_media">媒体</string>
+    <string name="main_picture">图片</string>
+    <string name="main_file">文件</string>
+    <string name="main_history">历史</string>
+    <string name="history_null">没有分享记录</string> 
+    
+    <string name="history_del_title">删除历史和文件</string> 
+  <string name="history_del_tv">删除历史</string> 
+  <string name="history_del_batch_tv">删除历史和接收文件</string> 
+  <string name="history_del_btn">删除</string> 
+    
+</resources>

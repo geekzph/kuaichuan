@@ -1,0 +1,64 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+	<style name="main_tab_bottom">
+        <item name="android:textSize">@dimen/bottom_tab_font_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">left</item>
+        <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="history_item_file_icon_iv_style">
+  <item name="android:layout_gravity">center_vertical</item> 
+  <item name="android:layout_width">48.0dip</item> 
+  <item name="android:layout_height">48.0dip</item> 
+  <item name="android:layout_margin">2.0dip</item> 
+  <item name="android:scaleType">centerInside</item> 
+  </style>
+ <style name="history_item_file_name_tv_style">
+  <item name="android:textSize">15.0sp</item> 
+  <item name="android:textColor">@color/black</item> 
+  <item name="android:ellipsize">middle</item> 
+  <item name="android:layout_width">fill_parent</item> 
+  <item name="android:layout_height">0.0dip</item> 
+  <item name="android:singleLine">true</item> 
+  <item name="android:layout_weight">1.0</item> 
+  </style>
+  <style name="history_item_file_size_tv_style">
+  <item name="android:textSize">12.0sp</item> 
+  <item name="android:textColor">@color/grey</item> 
+  <item name="android:ellipsize">end</item> 
+  <item name="android:background">@null</item> 
+  <item name="android:layout_width">fill_parent</item> 
+  <item name="android:layout_height">0.0dip</item> 
+  <item name="android:singleLine">true</item> 
+  <item name="android:layout_weight">1.0</item> 
+  </style>
+   <style name="List">
+  
+  <item name="android:cacheColorHint">@android:color/transparent</item> 
+  <item name="android:divider">@drawable/line_seperator</item> 
+  <item name="android:headerDividersEnabled">false</item> 
+  <item name="android:footerDividersEnabled">true</item> 
+  <item name="android:smoothScrollbar">true</item> 
+  </style>
+
+   
+	<style name="dark_btn">
+  <item name="android:shadowColor">#50000000</item> 
+  <item name="android:shadowDx">0.0</item> 
+  <item name="android:shadowDy">-1.0</item> 
+  <item name="android:shadowRadius">1.0</item> 
+  </style>
+   <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item><!--模糊-->
+    </style>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="blue">#ffccddff</color>
+    <color name="grey">#ff808080</color>
+    <color name="textview_unable">#ffd8d8d8</color>
+    <color name="textview_enable">#ff414141</color>
+    <color name="black">#000000</color>
+    <color name="lightgrey">#ff78818d</color>
+    <color name="tab_view_text_normal">#ff9d9d9d</color>
+    <color name="tab_view_text_selected">#ffffffff</color>
+    <color name="title_btn_textview_unable">#ffa2a2a2</color>
+    <color name="wifi_tv_normal">#ff818181</color>
+    <color name="wifi_tv_selected">#ff000000</color>
+    <color name="main_bg">#ffe1e8eb</color>
+    <color name="guide_bg">#ff323e44</color>
+    <color name="grid_selector">#ff8ac527</color>
+    <color name="little_gray">#ff444444</color>
+    <color name="about_tv">#ff7a858e</color>
+    <color name="traffic_tv">#ff6f6f6f</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="translucent_background">#00ffffff</color>
+</resources>

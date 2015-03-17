@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="LargeTextSize">17.0dip</dimen>
+    <dimen name="BasicTextSize">15.0dip</dimen>
+    <dimen name="TitleTextSize">18.0dip</dimen>
+    <dimen name="SmallTextSize">14.0dip</dimen>
+    
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    
+    <dimen name="bottom_tab_font_size">12dp</dimen>
+	<dimen name="bottom_tab_padding_up">5dp</dimen>
+	<dimen name="bottom_tab_padding_drawable">8dp</dimen>
+	<dimen name="bottom_margin">0dp</dimen>
+	<dimen name="tabhost_margin">40dp</dimen>
+</resources>

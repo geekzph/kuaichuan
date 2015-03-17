@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@+id/history_user_info" android:layout_width="64.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.6999817dip" android:layout_marginRight="6.6999817dip" android:layout_alignParentRight="true">
+        <RelativeLayout android:id="@+id/history_avatar_frame" android:layout_width="54.0dip" android:layout_height="54.0dip" android:layout_centerHorizontal="true">
+            <ImageView android:id="@+id/history_item_avatar_iv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+            <ImageView android:id="@+id/history_opposide_avatar" android:background="@drawable/images_border_radius" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <TextView android:textColor="@color/little_gray" android:id="@+id/history_item_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" android:layout_below="@id/history_avatar_frame" android:layout_centerHorizontal="true" />
+        <CheckBox android:id="@+id/history_checkbox" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/btn_checkbox_icon" android:layout_below="@id/history_avatar_frame" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="right" android:layout_width="fill_parent" android:layout_height="90.69998dip" android:layout_marginLeft="23.299988dip" android:layout_toLeftOf="@+id/history_user_info" android:layout_alignTop="@id/history_user_info">
+        <FrameLayout android:id="@+id/history_buble" android:background="@drawable/history_send_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textColor="@color/black" android:id="@+id/history_item_send_to_who_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/history_item_send_to_who_tv">
+                    <ImageView android:id="@+id/history_item_file_icon_iv" style="@style/history_item_file_icon_iv_style" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/history_item_file_icon_iv">
+                        <TextView android:autoLink="web" android:id="@+id/history_item_file_name_tv" style="@style/history_item_file_name_tv_style" />
+                        <TextView android:id="@+id/history_item_file_size_tv" style="@style/history_item_file_size_tv_style" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

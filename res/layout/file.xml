@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tvpath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/btnParent"
+            android:background="@drawable/path_pane_bg"
+            android:gravity="center_vertical"
+            android:text="当前路径："
+            android:textSize="@dimen/LargeTextSize" />
+
+        <Button
+            android:id="@+id/btnParent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/path_up_level" />
+
+    </RelativeLayout>
+
+    <com.zph.kuaichuan.DragListView
+        android:id="@+id/files"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.zph.kuaichuan.DragListView>
+
+</LinearLayout>
